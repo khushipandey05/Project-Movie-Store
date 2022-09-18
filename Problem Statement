@@ -1,0 +1,32 @@
+# Project-Movie-Store
+A ninja very passionate about movies decides to follow his passion and opens a huge movie CD/DVD store where you can find each and every type of movie ever made.
+
+
+Over time the Ninja realised that he should create a Movies database for easy management. So, he wants this database to have information about the movies like it’s title, it’s release date, it’s length (in minutes), the director ,the imdb rating it got , and most importantly the price of its CD/DVD. He would also like to contain data of various movies segregated according to:
+1. the different genre movies belong to.
+2. the lead actors present in the movie
+3. also according to the famous roles played by these lead actors as many customers usually recall the character/role but not the actual actor.
+To store the above information, the different genres should be stored separately, the lead actor details such as name, gender, total films done should be recorded and also the data related to roles such as role_info, actor who played it etc.
+Along with that he also wants to incorporate the sales record of the CD/DVD of a movie. Now, there are two options: either a customer can buy a CD/DVD or can rent one.
+For Renting, the customer either needs to handover some security deposit that gets returned the time a person returns the CD/DVD.
+Now, the database also contains the information like when the CD/DVD was rented, and when it is expected to be returned and when actual it was returned, it also keeps information about for how many extra days was the cd/dvd not returned and 15% of actual price is charged as penalty fee per day. So the database should also generate the total penalty fee being charged to the customer.
+Now he wants you to do some of his work, and he surely has promised to give you free CD/DVD’s of your favorite movies. He wants you to help him solve this problem step by step.
+Note: take care of the primary key and foriegn keys for each entity to handle logical flaws.
+
+
+Q1. Identify the entities and attributes for this problem statement.
+
+
+Q2. Identify if there are any composite/ multivalued/ derived attributes.
+
+
+Q3. Identify what should be the primary key and foreign keys for the entities.
+
+
+Q4. Identify the relationship name which should exist among the entities. Also, mention the cardinality ratio (1:1. 1:N, M:N) for each relationship.
+
+
+Q5.Now, combining all the information you derived from the above, draw the complete ER Diagram .
+
+
+Q6. Create the Relational Schema for the above ER-diagram.
